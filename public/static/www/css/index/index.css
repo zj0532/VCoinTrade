@@ -156,3 +156,10 @@ h7{
         top: -42px;
     }
 }
+@media screen and (min-height: 1024px) {
+    .iPhone{
+        width: 55%;
+        position: absolute;
+        top: -42px;
+    }
+}
