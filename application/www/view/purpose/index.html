@@ -1,0 +1,141 @@
+{include file="public/header" /}
+{include file="public/head" /}
+<link type="text/css" href="/static/www/css/purpose/purpose.css" rel="stylesheet">
+<div class="container-fluid" style="padding: 0px">
+    <div class="row" style="margin: 0">
+        <div class="col-md-12" style="height: 55px"></div>
+        <!--交易所-->
+        <div class="col-md-4" id="exchange">
+            <!--交易所图标-->
+            <div class="col-md-2">
+                <img src="/static/www/img/jiao_yi_suo.png" style="width:35px;height: 35px">
+            </div>
+            <!--交易所文字-->
+            <div class="col-md-10">
+                <p class="text-margin">交易所</p>
+                <span>VCoinTrade是全世界最具流动性的交易所，允许用户以最小的滑点轻松将 %{pairs} 兑换为 USD 或 FXC。我们还拥有一套订单类型，帮助交易者处理各种情况。 ）</span>
+            </div>
+        </div>
+        <!--保证金交易-->
+        <div class="col-md-4" id="margin_trading">
+            <!--保证金交易图标-->
+            <div class="col-md-2">
+                <img src="/static/www/img/bao_zheng_jin.png" style="width:35px;height: 35px">
+            </div>
+            <!--保证金交易文字-->
+            <div class="col-md-10">
+                <p class="text-margin">保证金交易</p>
+                <span>VCoinTrade允许用户从点对点保证金融资平台接受融资，以此进行高达 3.3 倍杠杆的交易。用户可以输入订单，以自己选择的利率和持续时间借入所需金额，用户也可以尽管建仓，VCoinTrade将以当时的最佳利率为他们融资。</span>
+            </div>
+        </div>
+        <!--保证金融资市场-->
+        <div class="col-md-4" id="margin_financing_market">
+            <!--保证金融资市场图标-->
+            <div class="col-md-2">
+                <img src="/static/www/img/rong_zi.png" style="width:35px;height: 35px">
+            </div>
+            <!--保证金融资市场文字-->
+            <div class="col-md-10">
+                <p class="text-margin">保证金融资市场</p>
+                <span>保证金融资市场提供了一种方式，可以通过向希望利用杠杆交易的交易者提供融资赚取 Euro, Japanese Yen, Pound Sterling, US Dollar, Bitcoin, Ethereum, EOS, Litecoin,
+                    Ripple, Bitcoin Cash, Iota, NEO, Ethereum Classic, OmiseGO, Monero, Dash, Zcash, Bitcoin Gold, Santiment, Eidoo, and ETP 利息。用户能够以自己选择的利率和持续时间提供融资，
+                    他们也可以按照 FRR（快闪返利率）出借资金。此外，用户还可以使用我们的自动更新功能，在他们的报价到期后自动更新。
+                </span>
+            </div>
+        </div>
+            <!--订单类型-->
+            <div class="col-md-12" style="height: 64px;" ></div>
+            <div class="col-md-12 " id="order_type" style="background:rgba(237,236,236,1)">
+                <div class="col-md-12" style="height: 30px;"></div>
+                <div class="col-md-12 text-center text">
+                    <p>订单类型</p>
+                    <span>VCoinTrade 为我们的用户提供了一套订单类型，方便交易者根据具体情况选择需要的工具。我们当前提供以下订单类型：</span>
+                </div>
+                <div class="col-md-12" style="height: 20px"></div>
+                <div class="row">
+                    <div class="col-md-6 text-two" style="padding-left: 40px">
+                        <p>限价单</p>
+                        <span>一种以指定价格或更优价格买入/卖出的订单。</span>
+                        <p>市价单</p>
+                        <span>一种以当前市价立即执行买入或卖出的订单。</span>
+                        <p>止损单</p>
+                        <span>一种在市场达到特定价格后卖出或平仓的订单。</span>
+                        <p>移动止损单</p>
+                        <span>一种设置为在市场背离您的意愿一定价格（称为价差）后执行的止损单。移动止损卖出订单可以在股价上升时保护和最大化利润，以及在股价下跌时限制亏损。</span>
+                        <p>成交或取消</p>
+                        <span>此类型订单是限价单，必须完全成交或取消（撤销）。成交或取消订单的目的是确保仓位进入满意的价格。</span>
+                        <div class="col-md-12" style="height: 50px"></div>
+                        <p>Algorithmic orders</p>
+                        <span>Iceberg Orders</span>
+                        <span>A Partially hidden order where a user customizable amount is visible on the book, with the rest being hidden.</span>
+                    </div>
+                    <div class="col-md-5 text-two">
+                        <p>二择一委托单(OCO)</p>
+                        <span>此选项允许用户下达一对订单，如果一个订单完全或部分执行，另一个订单将自动取消。二择一委托单集止损单与限价单于一体。此选项允许您为自己的仓位设置盈利和止损目标（仅限限价单）。</span>
+                        <p>摆盘</p>
+                        <span>利用“摆盘”限价单，您可以确保支付做市商费用。下达后，“摆盘”限价单将插入订单簿或取消（仅限限价单）。</span>
+                        <p>隐藏单</p>
+                        <span>隐藏单是不会在订单簿上显示的订单，所以不会影响其他市场参与者。请参阅费用页面，了解最小规模和适用费用。</span>
+                        <div class="col-md-12" style="height: 139px"></div>
+                        <p>TWAP</p>
+                        <span>Time Weighted Average Price is an order that will divide into multiple orders for a specified amount over a specified time period.</span>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="col-md-12" style="height: 30px"></div>
+            </div>
+            <!--可定义的界面-->
+        <div class="col-md-12" id="customizable_interface" style="height: 50px"></div>
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-10 text-font" style="padding-left: 40px">
+                    <img src="/static/www/img/zi_ding_yi.png">
+                    <span>可自定义的界面</span>
+                    <ul style="margin-left: 20px">
+                        <li style="margin-top: 10px">允许您根据自己的需求设置首选项和组织工作区</li>
+                        <li style="margin-top: 15px">Compose the Trading Sidebar and choose its side (Left or Right)</li>
+                        <li>Manage tickers navigation and save preferences</li>
+                        <li>Organize and sort the Order Book columns</li>
+                        <li>Set your table preferences</li>
+                        <li style="margin-top: 20px">Switch anytime bewteen Dark and Light theme</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="row">
+                <div class="col-md-9 padding-0">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="Dark_theme">
+                            <img src="/static/www/img/purpose/dark_theme.png" style="width: 100%" >
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Light_theme">
+                            <img src="/static/www/img/purpose/light_theme.png" style="width: 100%" >
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Ticker_nav">
+                            <img src="/static/www/img/purpose/Ticker_nav.png" style="width: 100%" >
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="Notifications">
+                            <img src="/static/www/img/purpose/Notifications.png" style="width: 100%" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 padding-0" >
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs pic-right text-center" role="tablist" style="border-bottom:none;width: 100px">
+                        <li role="presentation" class="active"><a href="#Dark_theme" aria-controls="Dark_theme" role="tab" data-toggle="tab">Dark theme</a></li>
+                        <li role="presentation"><a href="#Light_theme" aria-controls="Light_theme" role="tab" data-toggle="tab">Light theme</a></li>
+                        <li role="presentation"><a href="#Ticker_nav" aria-controls="Ticker_nav" role="tab" data-toggle="tab">Ticker nav</a></li>
+                        <li role="presentation"><a href="#Notifications" aria-controls="Notifications" role="tab" data-toggle="tab">Notifications</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 165px">
+        </div>
+    </div>
+</div>
+<div>
+</div>
+{include file="public/foot" /}

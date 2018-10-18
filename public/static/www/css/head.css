@@ -1,0 +1,31 @@
+.login-font{
+    font-size:24px;
+    font-family:PingFang-SC-Medium;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.menu-font{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    float: left;
+}
+.menu-font a:hover{
+    text-decoration: none;
+}
+.menu-right{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(92,184,92,1);
+}
+.menu-select{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    border:1px solid rgba(255,255,255,1);
+    border-radius:5px;
+    background:rgba(2,11,68,1);
+    color:rgba(255,255,255,1);
+}

@@ -1,0 +1,32 @@
+.logo-font{
+    font-size:24px;
+    font-family:PingFang-SC-Medium;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.foot-font{
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:100;
+    color:rgba(255,255,255,0.9);
+}
+.foot-text{
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    color:#aec9d9;
+    line-height: 26px;
+    letter-spacing:2px;
+}
+.copy-right{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(195,195,195,1);
+}
+.foot-text li a{
+    color:#aec9d9;
+}
+.foot-text li a:hover{
+    color:#aec9d9;
+    text-decoration: underline;
+}

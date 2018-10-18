@@ -1,0 +1,113 @@
+<link type="text/css" href="/static/www/css/foot.css" rel="stylesheet">
+<div class="container-fluid padding-0" style="background:rgba(34,34,34,1);">
+    <div class="row margin-0">
+        <div class="col-md-3">
+            <div class="col-md-12" style="height:100px"></div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6"><span class="logo-font">VCoinTrade</span></div>
+            </div>
+        </div>
+        <div class="col-md-9 text-center">
+            <div class="col-md-12" style="height:50px"></div>
+            <div class="row padding-0">
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <span class="foot-font" style="margin-left: 34px">功能</span>
+                    <div class="col-md-12" style="height: 20px"></div>
+                    <ul class="foot-text">
+                        <li><a href="/purpose#exchange">交易所</a></li>
+                        <li><a href="/purpose#margin_trading">保证金交易</a></li>
+                        <li><a href="/purpose#margin_financing_market">保证金融资市场</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <span class="foot-font" style="margin-left: 34px">安全</span>
+                    <div class="col-md-12" style="height: 20px"></div>
+                    <ul class="foot-text">
+                        <li><a href="/security#user_protect">用户账户保护</a></li>
+                        <li><a href="/security#encrypted_currency_storage">加密货币存储</a></li>
+                        <li><a href="/security#system_security">System Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="foot-font" style="margin-left: 34px">关于</span>
+                    <div class="col-md-12" style="height: 20px"></div>
+                    <ul class="foot-text">
+                        <li><a href="/about#platform_introduction">平台介绍</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 50px"></div>
+        <div class="col-md-12 text-center">
+            <span class="copy-right">CopyRight© 2013-2016 数字货币交易中心交易平台 All Rights Reserved | 数字货币交易中心-版权所有</span>
+        </div>
+        <div class="col-md-12" style="height: 47px"></div>
+    </div>
+</div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/static/www/js/bootstrap-4.0.js"></script>
+    <script src="/static/www/js/bootstrap-table.min.js"></script>
+    <script src="/static/www/js/bootstrap-table-zh-CN.js"></script>
+    <script>
+      $(function(){
+          $("#USD_table,#EUR_table,#GBP_table,#JPY_table,#BTC_table,#ETH_table,#EOS_table").bootstrapTable({ // 对应table标签的id
+              url: "/table", // 获取表格数据的url
+              columns: [
+                {
+                      field: 'vt_symbol', // 返回json数据中的name
+                      title: 'SYMBOL', // 表格表头显示文字
+                      align: 'center', // 左右居中
+                      valign: 'middle', // 上下居中
+                      sortable:true,
+                  }, {
+                      field: 'vt_last_price',
+                      title: 'LAST PRICE',
+                      align: 'center',
+                      valign: 'middle',
+                      sortable:true,
+                  },
+                  {
+                      field: 'vt_change',
+                      title: '24H CHANGE',
+                      align: 'center',
+                      valign: 'middle',
+                      sortable:true,
+                      formatter : function (value) {
+                          return '<span style="color: #00ff00">'+value + "%</span>";
+                      },
+                  },
+                  {
+                      field: 'vt_high',
+                      title: '24H HIGH',
+                      align: 'center',
+                      valign: 'middle',
+                      sortable:true,
+                  },
+                  {
+                      field: 'vt_low',
+                      title: '24H LOW',
+                      align: 'center',
+                      valign: 'middle',
+                      sortable:true,
+                  },
+                  {
+                      field: 'vt_volume',
+                      title: '24H VOLUME',
+                      align: 'center',
+                      valign: 'middle',
+                      sortable:true,
+                  },
+              ],
+              onLoadSuccess: function(data){  //加载成功时执行
+              },
+              onLoadError: function(){  //加载失败时执行
+              }
+
+          })
+      })
+    </script>
+  </body>
+</html>

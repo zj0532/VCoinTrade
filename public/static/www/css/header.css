@@ -1,0 +1,50 @@
+/*margin*/
+.margin-0{
+    margin: 0px;
+}
+.margin-left-5{
+    margin-left: 5px;
+}
+.margin-left-30{
+    margin-left: 30px;
+}
+.margin-right-5{
+    margin-right: 5px;
+}
+/*font-size*/
+.text-14{
+    font-size:14px;
+}
+.text-20{
+    font-size: 20px;
+}
+/*padding*/
+.padding-0{
+    padding: 0;
+}
+/*height*/
+.height-18{
+    height: 18px;
+}
+.height-50{
+    height: 50px;
+}
+.height-60{
+    height: 60px;
+}
+/*width*/
+
+.width-184{
+    width: 184px;
+}
+/*float*/
+.float-right{
+    float: right;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}

@@ -1,0 +1,108 @@
+{include file="public/header" /}
+{include file="public/head" /}
+<link type="text/css" href="/static/www/css/secunity/secunity.css" rel="stylesheet">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12" style="height: 80px"></div>
+        <div class="col-md-12 text-center  title">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p>安全策略</p>
+                    <div style="text-align: left">
+                        <span  style="color: #5a6267">资金和用户信息的安全是我们的首要任务。我们的安全团队一直在不断完善我们的端到端安全措施，改进审核流程，以及减少我们基础架构的“攻击面”。
+                请注意，出于安全和专有原因，我们无法披露平台所实施安全措施的过多细节。</span>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="col-md-12" style="height: 80px"></div>
+        <!--用户账户保护-->
+        <div class="col-md-1" id="user_protect"></div>
+        <div class="col-md-10">
+            <div class="row">
+                <!--文字-->
+                <div class="col-md-8 text-2">
+                    <h1>用户账户保护</h1>
+                    <h3>下面突出显示的部分安全措施会默认实施，其他则可以根据您需要的安全等级激活。请访问 http://uc.vcointrade.com 了解您的账户的安全状态并查看建议。</h3>
+                    <h2>双重身份验证 (2FA)</h2>
+                    <h3>让您的账户多一层安全防护，并保护敏感操作，如登录、生成 API 密钥和提款。使用 Google 身份验证器、Twilio 或 U2F 安全密钥。</h3>
+                    <h2>通用第二因素 (U2F)</h2>
+                    <h3>使用物理安全密钥来利用超级安全的 FIDO 通用第二因素 (U2F) 开放认证标准。</h3>
+                    <h2>先进的验证工具可以监控您账户的完整性</h2>
+                    <h3>保存登录数据并分析异常活动。</h3>
+                    <h3>智能系统检测 IP 地址变化以防止会话劫持。</h3>
+                    <h3>电子邮件通知报告登录状况，并包含一个可以立即冻结您账户的链接，以备您怀疑存在恶意活动时使用。</h3>
+                    <h3>以 IP 地址限制对您账户的访问。</h3>
+                    <h2>提款保护</h2>
+                    <h3>安全系统按 IP 地址和其他用户行为模式监控提款，会在出现异常提款时触发手动管理员检查。</h3>
+                    <h3>不受恶意浏览器软件影响的提款确认步骤。</h3>
+                    <h3>定义一份地址白名单以确保提款不会转到任何其他地方。</h3>
+                    <h2>高级 API 密钥权限</h2>
+                    <h3>按功能创建具有高级读/写权限的 API 密钥。通过我们的 REST 和 WebSockets API 发挥平台的全部能力。</h3>
+                    <h2>使用 OpenPGP 进行电子邮件加密</h2>
+                    <h3>想要更多保护？加密的电子邮件通信 (PGP) 可以为您增加一层额外的隐私和安全防护。</h3>
+                </div>
+                <!--图片-->
+                <div class="col-md-4">
+                    <div class="col-md-12" style="height: 49px"></div>
+                    <div class="col-md-12" style="height: 645px;">
+                        <img src="/static/www/img/security/bao_hu.png" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <!--分割线-->
+        <div class="col-md-12" style="height: 98px"></div>
+        <!--加密货币存储-->
+        <div class="col-md-1" id="encrypted_currency_storage"></div>
+        <div class="col-md-10">
+            <div class="row">
+                <!--图片-->
+                <div class="col-md-4">
+                    <img src="/static/www/img/security/chu_cun.png" width="100%">
+                </div>
+                <!--文字-->
+                <div class="col-md-8">
+                    <div class="text-3" style="margin-top: 8%">
+                        <h1>加密货币存储</h1>
+                        <h3>绝大多数的系统资金都存储在离线的冷钱包中。只有大约 0.5% 的加密资产存储在热钱包中，用于日常的平台运行。为了进一步提供保护，无法从平台或平台服务器访问。
+                            离线冷存储中的资金需要我们数位管理层成员的人工干预才能访问。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <!--分割线-->
+        <div class="col-md-12" style="height: 89px"></div>
+        <!--System Security-->
+        <div class="col-md-1" id="system_security"></div>
+        <div class="col-md-10">
+            <div class="row">
+                <!--文字-->
+                <div class="col-md-4">
+                    <h1>System Security</h1>
+                    <h2>始终采用最新的 Linux 系统托管平台</h2>
+                    <h3>我们的服务器网络始终使用最新的软件和最佳实践进行保护。</h3>
+                    <h2>每天自动备份一次数据库</h2>
+                    <h3>平台的数据库将以每天一次的频率进行备份、加密并压缩为存档。</h3>
+                    <h2>自动建立备份数据的副本</h2>
+                    <h3>新备份就绪后（数据库、日志文件等），会发送给多个地点的其他服务器。</h3>
+                    <h2>防护 DDoS 攻击</h2>
+                    <h3>我们具备针对分布式拒绝服务攻击的自动防护，可以确保交易不会因外界攻击而停止。</h3>
+                </div>
+                <!--图片-->
+                <div class="col-md-8">
+                    <img src="/static/www/img/security/system.png" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <!--分割线-->
+    <div class="col-md-12" style="height: 246px"></div>
+</div>
+
+{include file="public/foot" /}

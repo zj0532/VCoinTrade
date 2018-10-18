@@ -1,0 +1,158 @@
+*@font-face {
+    font-family: 'FontAwesome';
+    src: url("/static/www/font/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot");
+    src: url("/static/www/font/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot?#iefix") format("embedded-opentype"),
+    url("/static/www/font/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2") format("woff2"),
+    url("/static/www/font/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff") format("woff"),
+    url("/static/www/font/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf") format("truetype"),
+    url("/static/www/font/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+h1{
+    font-size:36px;
+    font-family:"Roboto", sans-serif;
+    /*font-weight:bold;*/
+    color:rgba(255,255,255,1);
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+    box-sizing: inherit;
+}
+h2{
+    font-size:24px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,15,24,1);
+    line-height:60px;
+}
+h3{
+    font-size:18px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,15,24,1);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(0,15,24,1);
+    line-height: 20px;
+}
+h5{
+    font-size:24px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1)
+}
+h6{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:100;
+    color:rgba(255,255,255,1);
+}
+h7{
+    font-size:10px;
+    font-family:PingFang-SC-Medium;
+    font-weight:bold;
+    color:rgba(0,15,24,1);
+}
+.button-1{
+    width: 135px;
+    height: 50px;
+    background:#678e2f;
+    border-radius:5px;
+}
+.button-1:hover{
+    background:#7ead39;
+}
+.button-2{
+    width: 135px;
+    height: 50px;
+    background:rgba(5,47,84,1);
+    border-radius:5px;
+}
+.button-2:hover{
+    background:#5B91B2;
+}
+.img-left{
+    margin-left: 20px;
+}
+.table{
+    font-size:6px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.title-text{
+    width:56px;
+    height:33px;
+    line-height: 33px;
+    text-align: center;
+    background:rgba(5,47,84,1);
+    font-size:7px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.title-text:hover{
+    color:rgba(255,255,255,1);
+    list-style: none;
+
+}
+.table th, .table td{
+    border-top:1px solid rgba(5,47,84,1);
+}
+.fixed-table-container tbody td{
+    border-left: none;
+}
+.fixed-table-container thead th{
+    border: none;
+}
+.bootstrap-table .table > thead > tr > th{
+    border-bottom:1px solid rgba(5,47,84,1);
+}
+.fixed-table-container{
+    border: none;
+}
+.bella-checkbox input[type="checkbox"] {
+    opacity: 0; /*将初始的checkbox隐藏起来*/
+}
+.bootstrap-table .table{
+    border: none;
+}
+.table-text li a{
+    color:rgba(255,255,255,1);
+}
+.more{
+    color: #4995c4;
+}
+.more a{
+    color: #4995c4;
+}
+.more a:hover{
+    color: #4995c4;
+    text-decoration: none;
+}
+.iPhone{
+    width: 10%;
+}
+@media screen and (min-height: 500px) {
+    .iPhone{
+        width: 78%;
+        position: absolute;
+        top: -44px;
+    }
+}
+@media screen and (min-height: 768px) {
+    .iPhone{
+        width: 55%;
+        position: absolute;
+        top: -42px;
+    }
+}

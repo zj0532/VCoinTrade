@@ -1,0 +1,24 @@
+h1{
+    font-size:30px;
+    font-family:PingFang-SC-Medium;
+    font-weight:100;
+    color:rgba(0,0,0,1);
+    line-height:60px;
+}
+h2{
+    margin-top: 10px;
+    font-size:16px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:#5a6267;
+}
+@media screen and (min-width: 1200px){
+    .right-img{
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .right-img{
+        margin-top: 7px;
+    }
+}

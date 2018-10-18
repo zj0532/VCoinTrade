@@ -1,0 +1,74 @@
+.col-md-10 p{
+    font-size:18px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,15,24,1);
+}
+
+.col-md-10 span{
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:#5a6267;
+}
+
+.text  p{
+    font-size:24px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,15,24,1);
+    margin-top: 10px;
+}
+
+.text  span{
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    color:#5a6267;
+}
+
+.active{
+    color:rgba(51,122,183,1);
+}
+ul li a:hover{
+    list-style: none;
+    text-decoration:none;
+}
+
+.pic-right li{
+    background:#eee;
+    border-radius:3px;
+    margin-top: 11px;
+    height: 42px;
+    width: 88px;
+    line-height: 42px;
+    font-size:7px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(0,15,24,1);
+}
+.text-margin{
+    margin-top: 10px;
+}
+.text-font ul li{
+    color: #5a6267;
+}
+.text-font span{
+    margin:0 0 0 20px;
+    color: #111;
+    font-size: 18px;
+}
+.title p{
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+}
+.text-two p{
+    font-size: 16px;
+    color: #111;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.text-two span{
+    color: #5a6267;
+    font-size: 16px;
+}

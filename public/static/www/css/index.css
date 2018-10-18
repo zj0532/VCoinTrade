@@ -1,0 +1,31 @@
+.title-font{
+    font-size:36px;
+    font-family:PingFang-SC-Medium;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.pen-account{
+    width:153px;
+    height:51px;
+    background:rgba(92,184,92,1);
+    border-radius:5px;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height: 38px;
+    border: none;
+}
+.view-demo{
+    width:153px;
+    height:51px;
+    background:rgba(5,47,84,1);
+    border-radius:5px;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height: 38px;
+    border: none;
+    margin-left: 5px;
+}
